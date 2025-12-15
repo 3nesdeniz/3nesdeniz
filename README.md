@@ -14,3 +14,17 @@ Ben sadece uyarıları (alert) izleyen bir analist değil, o uyarıların arkas�
 * **Mühendislik Kökeni:** Hazır toolları kullanmakla yetinmem; Python ile kendi güvenlik otomasyonlarımı ve analiz araçlarımı yazarım.
 * **Sistem Hakimiyeti:** Linux çekirdeğinden Windows Active Directory yapısına kadar, işletim sistemlerinin "kaputun altındaki" çalışma prensiplerine odaklanırım.
 * **Ofansif Vizyon:** Ağ saldırılarını ve zafiyetleri (Red Team) bilirim; ancak bu bilgiyi saldırıları daha iyi tespit etmek ve engellemek (Blue Team) için kullanırım.
+
+---
+
+### 🚀 Öne Çıkan Projem
+
+| **EnsSecPath | Kişisel SOC Yönetim Merkezi** |
+| :--- |
+| ![Dashboard Icon](https://raw.githubusercontent.com/3nesdeniz/EnsSecPath--ShowCase/main/assets/dashboard.jpg?raw=true&sanitize=true) |
+
+Bir SOC analistinin en büyük gücü, veriyi yönetme disiplinidir. Kendi eğitim süreçlerimi, tool projelerimi ve sertifikalarımı yönetmek için **Tauri (Rust)** mimarisiyle geliştirdiğim özel masaüstü yazılımı.
+
+[![EnsSecPath İncele](https://img.shields.io/badge/Proje_Vitrinini_İncele-Tıkla-24C8DB?style=for-the-badge&logo=github)](https://github.com/3nesdeniz/EnsSecPath--ShowCase)
+
+---
