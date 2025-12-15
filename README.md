@@ -1,16 +1,16 @@
-## Hi there 👋
+# Merhaba, Ben Enes. 👋
 
-<!--
-**3nesdeniz/3nesdeniz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🎓 Yazılım Mühendisliği Öğrencisi | 🛡️ SOC & Güvenlik Analisti Adayı
 
-Here are some ideas to get you started:
+Siber güvenliği sadece "araç kullanmak" olarak değil, **sistemin mimarisini anlamak** olarak görüyorum. Bir Yazılım Mühendisliği öğrencisi olarak, güvenlik operasyonlarına (Blue Team) bakış açım, sıradan bir analizden öte, **kod tabanlı ve mimari bir derinlik** içerir.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+> *"Bir sistemi savunmanın en iyi yolu, onun nasıl inşa edildiğini ve nasıl yıkılabileceğini bilmektir."*
+
+---
+
+### 🚀 Benim Yaklaşımım
+
+Ben sadece uyarıları (alert) izleyen bir analist değil, o uyarıların arkasındaki mantığı çözen bir mühendisim.
+* **Mühendislik Kökeni:** Hazır toolları kullanmakla yetinmem; Python ile kendi güvenlik otomasyonlarımı ve analiz araçlarımı yazarım.
+* **Sistem Hakimiyeti:** Linux çekirdeğinden Windows Active Directory yapısına kadar, işletim sistemlerinin "kaputun altındaki" çalışma prensiplerine odaklanırım.
+* **Ofansif Vizyon:** Ağ saldırılarını ve zafiyetleri (Red Team) bilirim; ancak bu bilgiyi saldırıları daha iyi tespit etmek ve engellemek (Blue Team) için kullanırım.
