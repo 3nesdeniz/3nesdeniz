@@ -20,7 +20,7 @@ Ben sadece uyarıları (alert) izleyen bir analist değil, o uyarıların arkas�
 ### 🚀 Öne Çıkan Projem
 
 | **EnsSecPath | Kişisel SOC Yönetim Merkezi** |
-| :--- |<img width="1512" height="947" alt="dashboard" src="https://github.com/user-attachments/assets/9bce0aa8-fe7e-4323-8207-9e7ccd6bf18e" />
+| :--- |<img width="756" height="473" alt="dashboard" src="https://github.com/user-attachments/assets/9bce0aa8-fe7e-4323-8207-9e7ccd6bf18e" />
 
 
 Bir SOC analistinin en büyük gücü, veriyi yönetme disiplinidir. Kendi eğitim süreçlerimi, tool projelerimi ve sertifikalarımı yönetmek için **Tauri (Rust)** mimarisiyle geliştirdiğim özel masaüstü yazılımı.
