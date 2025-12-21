@@ -26,6 +26,6 @@ Ben sadece uyarıları (alert) izleyen bir analist değil, o uyarıların arkas�
 
 Bir SOC analistinin en büyük gücü, veriyi yönetme disiplinidir. Kendi eğitim süreçlerimi, tool projelerimi ve sertifikalarımı yönetmek için **Tauri (Rust)** mimarisiyle geliştirdiğim özel masaüstü yazılımı.
 
-[![EnsSecPath İncele](https://img.shields.io/badge/Proje_Vitrinini_İncele-Tıkla-24C8DB?style=for-the-badge&logo=github)](https://github.com/3nesdeniz/EnsSecPath--ShowCase)
+[![EnsSecPath İncele](https://img.shields.io/badge/Proje_Vitrinini_İncele-Tıkla-24C8DB?style=for-the-badge&logo=github)](https://github.com/3nesdeniz/EnesSecPath--ShowCase)
 
 ---
