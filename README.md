@@ -38,6 +38,21 @@ At AltaySec, we are building one of Turkey's most focused AI security ecosystems
 
 ## Featured work
 
+### LLM Security Testbench
+
+A reproducible, pair-aware evaluation toolkit for prompt-injection detectors and LLM guardrails. It measures attack detection and legitimate-user false positives in the same run, with offline, Python, HTTP, and Promptfoo workflows.
+
+- TP, FP, TN, FN, false-positive rate, and paired-boundary analysis
+- Per-family, category, source-context, and split reporting
+- Local JSONL and Hugging Face dataset loading
+- Privacy-minimized JSON, Markdown, and JSONL reports
+- Tested on Python 3.10, 3.12, and 3.14
+
+<p>
+  <a href="https://github.com/3nesdeniz/llm-security-testbench"><strong>GitHub repository</strong></a> ·
+  <a href="https://github.com/3nesdeniz/llm-security-testbench/releases/tag/v0.1.0"><strong>v0.1.0 release</strong></a>
+</p>
+
 ### Turkish Conversation Prompt-Injection Dataset
 
 An open Turkish dataset built to study the boundary between legitimate user intent and prompt-injection behavior.
@@ -57,6 +72,7 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 
 | Project | Scope |
 | --- | --- |
+| [LLM Security Testbench](https://github.com/3nesdeniz/llm-security-testbench) | Pair-aware evaluation for prompt-injection detectors and LLM guardrails |
 | [Turkish Conversation Prompt-Injection](https://github.com/3nesdeniz/turkish-conversation-prompt-injection) | Turkish LLM-security dataset with paired benign and attack examples |
 | [Mini-SIEM](https://github.com/3nesdeniz/Mini-SIEM) | Log collection, threat detection, and MITRE ATT&CK mapping |
 | [Log Anomaly Detector](https://github.com/3nesdeniz/log-anomaly-detector) | Python-based log analysis and anomaly investigation |
