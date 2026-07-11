@@ -18,7 +18,8 @@
   <a href="https://altaysec.com.tr/arastirmalar/">Research</a> ·
   <a href="https://huggingface.co/3nesdeniz">Hugging Face</a> ·
   <a href="https://www.linkedin.com/in/3nesdeniz">LinkedIn</a> ·
-  <a href="https://medium.com/@3nesdeniz">Medium</a>
+  <a href="https://medium.com/@3nesdeniz">Medium</a> ·
+  <a href="https://orcid.org/0009-0006-9491-3565">ORCID</a>
 </p>
 
 I am an AI security founder and Co-Founder of **AltaySec**, specializing in Turkish and global LLM security, prompt injection, jailbreak defense, and AI red/blue teaming.
@@ -80,6 +81,7 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 
 ## Writing and research
 
+- [Prompt Injection Savunmaları Üretime Girmeden Nasıl Test Edilmeli?](https://medium.com/p/56801b23aa3f)
 - [LLM Güvenliğinde TP, FP, TN ve FN Dengesi](https://medium.com/@3nesdeniz/llm-g%C3%BCvenli%C4%9Finde-tp-fp-tn-ve-fn-dengesi-9a9129418900)
 - [AltaySec AI Security Research](https://altaysec.com.tr/arastirmalar/)
 - [Enes Deniz at AltaySec](https://altaysec.com.tr/enes-deniz.html)
@@ -97,3 +99,4 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 - **LinkedIn:** [linkedin.com/in/3nesdeniz](https://www.linkedin.com/in/3nesdeniz)
 - **Medium:** [medium.com/@3nesdeniz](https://medium.com/@3nesdeniz)
 - **Hugging Face:** [huggingface.co/3nesdeniz](https://huggingface.co/3nesdeniz)
+- **ORCID:** [0009-0006-9491-3565](https://orcid.org/0009-0006-9491-3565)
