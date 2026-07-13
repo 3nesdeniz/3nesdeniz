@@ -19,7 +19,8 @@
   <a href="https://huggingface.co/3nesdeniz">Hugging Face</a> ·
   <a href="https://www.linkedin.com/in/3nesdeniz">LinkedIn</a> ·
   <a href="https://medium.com/@3nesdeniz">Medium</a> ·
-  <a href="https://orcid.org/0009-0006-9491-3565">ORCID</a>
+  <a href="https://orcid.org/0009-0006-9491-3565">ORCID</a> ·
+  <a href="https://sessionize.com/3nesdeniz/">Speaker profile</a>
 </p>
 
 I am an AI security founder and Co-Founder of **AltaySec**, specializing in Turkish and global LLM security, prompt injection, jailbreak defense, and AI red/blue teaming.
@@ -54,6 +55,23 @@ A reproducible, pair-aware evaluation toolkit for prompt-injection detectors and
   <a href="https://github.com/3nesdeniz/llm-security-testbench/releases/tag/v0.1.0"><strong>v0.1.0 release</strong></a>
 </p>
 
+### Agentic Prompt-Injection Boundary Pairs
+
+An English dataset for testing whether security controls can distinguish legitimate workflows from prompt-injection attempts that reuse the same roles, tools, assets, and vocabulary.
+
+- **1,200** examples arranged as **600** controlled benign/attack pairs
+- **50** enterprise and agentic workflow scenarios
+- **12** attack families covering instruction, authorization, confidentiality, tool-use, retrieval, memory, trust, and approval boundaries
+- Scenario-isolated train, validation, and test splits
+- Deterministic build, validation, checksums, and an interactive pair explorer
+
+<p>
+  <a href="https://github.com/3nesdeniz/agentic-prompt-injection-boundary-pairs"><strong>GitHub repository</strong></a> ·
+  <a href="https://huggingface.co/datasets/3nesdeniz/agentic-prompt-injection-boundary-pairs"><strong>Hugging Face dataset</strong></a> ·
+  <a href="https://huggingface.co/spaces/3nesdeniz/agentic-prompt-injection-explorer"><strong>Interactive explorer</strong></a> ·
+  <a href="https://github.com/3nesdeniz/agentic-prompt-injection-boundary-pairs/releases/tag/v1.0.0"><strong>v1.0.0 release</strong></a>
+</p>
+
 ### Turkish Conversation Prompt-Injection Dataset
 
 An open Turkish dataset built to study the boundary between legitimate user intent and prompt-injection behavior.
@@ -74,6 +92,7 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 | Project | Scope |
 | --- | --- |
 | [LLM Security Testbench](https://github.com/3nesdeniz/llm-security-testbench) | Pair-aware evaluation for prompt-injection detectors and LLM guardrails |
+| [Agentic Prompt-Injection Boundary Pairs](https://github.com/3nesdeniz/agentic-prompt-injection-boundary-pairs) | English paired dataset for agentic workflows and trust-boundary testing |
 | [Turkish Conversation Prompt-Injection](https://github.com/3nesdeniz/turkish-conversation-prompt-injection) | Turkish LLM-security dataset with paired benign and attack examples |
 | [Mini-SIEM](https://github.com/3nesdeniz/Mini-SIEM) | Log collection, threat detection, and MITRE ATT&CK mapping |
 | [Log Anomaly Detector](https://github.com/3nesdeniz/log-anomaly-detector) | Python-based log analysis and anomaly investigation |
@@ -81,6 +100,8 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 
 ## Writing and research
 
+- [A Prompt-Injection Dataset Should Test Boundaries, Not Keywords](https://medium.com/@3nesdeniz/a-prompt-injection-dataset-should-test-boundaries-not-keywords-79589beda0b6)
+- [AI Güvenliği Bir Filtre Meselesi Değil](https://medium.com/@3nesdeniz/ai-güvenliği-bir-filtre-meselesi-değil-7eb8e7753339)
 - [Prompt Injection Savunmaları Üretime Girmeden Nasıl Test Edilmeli?](https://medium.com/p/56801b23aa3f)
 - [LLM Güvenliğinde TP, FP, TN ve FN Dengesi](https://medium.com/@3nesdeniz/llm-g%C3%BCvenli%C4%9Finde-tp-fp-tn-ve-fn-dengesi-9a9129418900)
 - [AltaySec AI Security Research](https://altaysec.com.tr/arastirmalar/)
@@ -100,3 +121,4 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 - **Medium:** [medium.com/@3nesdeniz](https://medium.com/@3nesdeniz)
 - **Hugging Face:** [huggingface.co/3nesdeniz](https://huggingface.co/3nesdeniz)
 - **ORCID:** [0009-0006-9491-3565](https://orcid.org/0009-0006-9491-3565)
+- **Speaker profile:** [sessionize.com/3nesdeniz](https://sessionize.com/3nesdeniz/)
