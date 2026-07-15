@@ -40,6 +40,20 @@ At AltaySec, we are building one of Turkey's most focused AI security ecosystems
 
 ## Featured work
 
+### AI & Cybersecurity Skills
+
+An open collection of ten evidence-driven security skills for Codex and compatible agents: six for AI security and four for core cybersecurity work.
+
+- AI threat modeling, prompt injection, agentic security, RAG security, LLM red teaming, and guardrail evaluation
+- Web application security, API security, cloud IAM, and incident triage
+- Explicit authorization boundaries, evidence rules, output contracts, and quality gates
+- 40 positive, edge, safety, and non-trigger eval cases with automated collection validation
+
+<p>
+  <a href="https://github.com/3nesdeniz/ai-cybersecurity-skills"><strong>GitHub repository</strong></a> ·
+  <a href="https://github.com/3nesdeniz/ai-cybersecurity-skills/releases/tag/v1.0.0"><strong>v1.0.0 release</strong></a>
+</p>
+
 ### LLM Security Testbench
 
 A reproducible, pair-aware evaluation toolkit for prompt-injection detectors and LLM guardrails. It measures attack detection and legitimate-user false positives in the same run, with offline, Python, HTTP, and Promptfoo workflows.
@@ -91,6 +105,7 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 
 | Project | Scope |
 | --- | --- |
+| [AI & Cybersecurity Skills](https://github.com/3nesdeniz/ai-cybersecurity-skills) | Ten evidence-driven AI security and cybersecurity skills for Codex and compatible agents |
 | [LLM Security Testbench](https://github.com/3nesdeniz/llm-security-testbench) | Pair-aware evaluation for prompt-injection detectors and LLM guardrails |
 | [Agentic Prompt-Injection Boundary Pairs](https://github.com/3nesdeniz/agentic-prompt-injection-boundary-pairs) | English paired dataset for agentic workflows and trust-boundary testing |
 | [Turkish Conversation Prompt-Injection](https://github.com/3nesdeniz/turkish-conversation-prompt-injection) | Turkish LLM-security dataset with paired benign and attack examples |
