@@ -36,7 +36,7 @@ I contribute reviewable AI-security artifacts to OWASP GenAI Security Project re
 
 ### GenAI Data Security Initiative — multilingual evaluation corpus
 
-I adapted **300 Turkish-first defensive prompt-injection and data-extraction test cases** from [AltaySec Turkish LLM Prompt Injection Dataset v0.2](https://huggingface.co/datasets/AltaySec/turkish-llm-injection) for the GenAI Data Security Initiative. The merged contribution adds one schema-conformant record per case, new annotations and DSGAI mappings, anonymization controls, record-level provenance, source and adapted-content hashes, and a deterministic integrity manifest.
+I adapted **300 Turkish-first defensive prompt-injection and data-extraction test cases** from [AltaySec Turkish LLM Prompt Injection Dataset v0.2](https://huggingface.co/datasets/AltaySec/turkish-llm-injection/tree/08d1fdccf10a831c2f32627c615002e6286f6315) for the GenAI Data Security Initiative. The merged contribution adds one schema-conformant record per case, new annotations and DSGAI mappings, anonymization controls, record-level provenance, source and adapted-content hashes, and a deterministic integrity manifest.
 
 - **Scope:** 227 extraction-focused cases and 73 explicitly marked prompt-injection control/review cases across 12 technique families
 - **Validation:** 300/300 Draft-07 schema validation, manifest-to-file integrity, canonical DSGAI checks, anonymization review, and duplicate screening
