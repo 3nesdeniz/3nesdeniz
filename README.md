@@ -5,29 +5,50 @@
 <h1 align="center">Enes Deniz</h1>
 
 <p align="center">
-  <strong>Co-Founder @ AltaySec | AI Security for Turkish & Global LLMs</strong>
+  <strong>Co-Founder @ AltaySec | OWASP GenAI Contributor | AI Security for Turkish & Global LLMs</strong>
 </p>
 
 <p align="center">
-  LLM Security · Prompt Injection · Jailbreak Defense · AI Red & Blue Teaming
+  LLM Security · Prompt Injection · AI Red Teaming · Agentic Security
 </p>
 
 <p align="center">
-  <a href="https://altaysec.com.tr/enes-deniz.html">Profile</a> ·
+  <a href="https://altaysec.com.tr/enes-deniz">Profile</a> ·
   <a href="https://altaysec.com.tr/">AltaySec</a> ·
   <a href="https://altaysec.com.tr/arastirmalar/">Research</a> ·
   <a href="https://huggingface.co/3nesdeniz">Hugging Face</a> ·
   <a href="https://www.linkedin.com/in/3nesdeniz">LinkedIn</a> ·
   <a href="https://medium.com/@3nesdeniz">Medium</a> ·
   <a href="https://orcid.org/0009-0006-9491-3565">ORCID</a> ·
-  <a href="https://sessionize.com/3nesdeniz/">Speaker profile</a>
+  <a href="https://sessionize.com/3nesdeniz/">Speaker profile</a> ·
+  <a href="https://www.crunchbase.com/person/enes-deniz-e763">Crunchbase</a>
 </p>
 
-I am an AI security founder and Co-Founder of **AltaySec**, specializing in Turkish and global LLM security, prompt injection, jailbreak defense, and AI red/blue teaming.
+I am an AI security founder, Co-Founder of **AltaySec**, and an open-source contributor to the **OWASP GenAI Security Project**. My work focuses on Turkish and global LLM security, prompt injection, AI red teaming, jailbreak defense, and agentic security.
 
 My work covers both sides of AI security: understanding how LLM applications fail under adversarial use, and developing the defensive controls, datasets, tools, and operating practices needed to deploy them more securely.
 
 At AltaySec, we are building one of Turkey's most focused AI security ecosystems. Product development, security research, education, open technical resources, and community work all move within the same structure.
+
+## Merged open-source contributions
+
+I contribute reviewable AI-security artifacts to OWASP GenAI Security Project repositories. The work below has passed upstream maintainer review and is directly verifiable through its merged pull request, validation record, and accompanying technical field note.
+
+### GenAI Data Security Initiative — multilingual evaluation corpus
+
+I adapted **300 Turkish-first defensive prompt-injection and data-extraction test cases** from AltaySec's public source dataset for the GenAI Data Security Initiative. The merged contribution adds one schema-conformant record per case, new annotations and DSGAI mappings, anonymization controls, record-level provenance, source and adapted-content hashes, and a deterministic integrity manifest.
+
+- **Scope:** 227 extraction-focused cases and 73 explicitly marked prompt-injection control/review cases across 12 technique families
+- **Validation:** 300/300 Draft-07 schema validation, manifest-to-file integrity, canonical DSGAI checks, anonymization review, and duplicate screening
+- **Evidence:** [Merged PR #11](https://github.com/GenAI-Security-Project/GenAI-Data-Security-Initiative/pull/11) · [Engineering field note](https://medium.com/@3nesdeniz/ai-security-needs-more-than-english-tests-b2c7589beec3)
+
+### GenAI Red Team Lab — system reconnaissance campaign
+
+I developed a reproducible **System Reconnaissance and Discovery** campaign for authorized GenAI assessments. It examines capability, tools, data sources, identity, policy, instructions, memory, architecture, and provenance through **24 English and Turkish probes across nine categories**.
+
+- **Engineering:** conservative human-review labels, evidence-linked JSONL and Markdown reports, language/category filters, dry runs, per-prompt error isolation, and fail-fast operation
+- **Validation:** 12 focused tests plus Black, isort, strict mypy, lockfile, and diff checks
+- **Evidence:** [Merged PR #50](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · [Engineering field note](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182)
 
 ## Areas of expertise
 
@@ -83,7 +104,8 @@ An English dataset for testing whether security controls can distinguish legitim
   <a href="https://github.com/3nesdeniz/agentic-prompt-injection-boundary-pairs"><strong>GitHub repository</strong></a> ·
   <a href="https://huggingface.co/datasets/3nesdeniz/agentic-prompt-injection-boundary-pairs"><strong>Hugging Face dataset</strong></a> ·
   <a href="https://huggingface.co/spaces/3nesdeniz/agentic-prompt-injection-explorer"><strong>Interactive explorer</strong></a> ·
-  <a href="https://github.com/3nesdeniz/agentic-prompt-injection-boundary-pairs/releases/tag/v1.0.0"><strong>v1.0.0 release</strong></a>
+  <a href="https://github.com/3nesdeniz/agentic-prompt-injection-boundary-pairs/releases/tag/v1.0.0"><strong>v1.0.0 release</strong></a> ·
+  <a href="https://doi.org/10.5281/zenodo.21378693"><strong>Zenodo DOI</strong></a>
 </p>
 
 ### Turkish Conversation Prompt-Injection Dataset
@@ -98,7 +120,8 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 
 <p>
   <a href="https://github.com/3nesdeniz/turkish-conversation-prompt-injection"><strong>GitHub repository</strong></a> ·
-  <a href="https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection"><strong>Hugging Face dataset</strong></a>
+  <a href="https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection"><strong>Hugging Face dataset</strong></a> ·
+  <a href="https://doi.org/10.5281/zenodo.21379389"><strong>Zenodo DOI</strong></a>
 </p>
 
 ## Selected engineering
@@ -109,8 +132,6 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 | [LLM Security Testbench](https://github.com/3nesdeniz/llm-security-testbench) | Pair-aware evaluation for prompt-injection detectors and LLM guardrails |
 | [Agentic Prompt-Injection Boundary Pairs](https://github.com/3nesdeniz/agentic-prompt-injection-boundary-pairs) | English paired dataset for agentic workflows and trust-boundary testing |
 | [Turkish Conversation Prompt-Injection](https://github.com/3nesdeniz/turkish-conversation-prompt-injection) | Turkish LLM-security dataset with paired benign and attack examples |
-| [GenAI Data Security Initiative — PR #11](https://github.com/GenAI-Security-Project/GenAI-Data-Security-Initiative/pull/11) | Merged contribution of 300 Turkish prompt-injection test cases |
-| [GenAI Red Team Lab — PR #50](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) | Merged bilingual system-reconnaissance campaign for LLM applications |
 | [Mini-SIEM](https://github.com/3nesdeniz/Mini-SIEM) | Log collection, threat detection, and MITRE ATT&CK mapping |
 | [Log Anomaly Detector](https://github.com/3nesdeniz/log-anomaly-detector) | Python-based log analysis and anomaly investigation |
 | [Mini Directory Scan](https://github.com/3nesdeniz/Mini-Directory-Scan) | Web directory scanner with soft-404 detection and structured reporting |
@@ -118,12 +139,13 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 ## Writing and research
 
 - [AI Security Needs More Than English Tests](https://medium.com/@3nesdeniz/ai-security-needs-more-than-english-tests-b2c7589beec3)
+- [Reconnaissance Before Exploitation](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182)
 - [A Prompt-Injection Dataset Should Test Boundaries, Not Keywords](https://medium.com/@3nesdeniz/a-prompt-injection-dataset-should-test-boundaries-not-keywords-79589beda0b6)
 - [AI Güvenliği Bir Filtre Meselesi Değil](https://medium.com/@3nesdeniz/ai-güvenliği-bir-filtre-meselesi-değil-7eb8e7753339)
 - [Prompt Injection Savunmaları Üretime Girmeden Nasıl Test Edilmeli?](https://medium.com/p/56801b23aa3f)
 - [LLM Güvenliğinde TP, FP, TN ve FN Dengesi](https://medium.com/@3nesdeniz/llm-g%C3%BCvenli%C4%9Finde-tp-fp-tn-ve-fn-dengesi-9a9129418900)
 - [AltaySec AI Security Research](https://altaysec.com.tr/arastirmalar/)
-- [Enes Deniz at AltaySec](https://altaysec.com.tr/enes-deniz.html)
+- [Enes Deniz at AltaySec](https://altaysec.com.tr/enes-deniz)
 
 ## Current priorities
 
@@ -140,3 +162,5 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 - **Hugging Face:** [huggingface.co/3nesdeniz](https://huggingface.co/3nesdeniz)
 - **ORCID:** [0009-0006-9491-3565](https://orcid.org/0009-0006-9491-3565)
 - **Speaker profile:** [sessionize.com/3nesdeniz](https://sessionize.com/3nesdeniz/)
+- **Crunchbase:** [Enes Deniz](https://www.crunchbase.com/person/enes-deniz-e763)
+- **Zenodo:** [Turkish dataset](https://doi.org/10.5281/zenodo.21379389) · [Agentic dataset](https://doi.org/10.5281/zenodo.21378693)
