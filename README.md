@@ -46,9 +46,9 @@ I adapted **300 Turkish-first defensive prompt-injection and data-extraction tes
 
 I developed a reproducible **System Reconnaissance and Discovery** campaign for authorized GenAI assessments. It examines capability, tools, data sources, identity, policy, instructions, memory, architecture, and provenance through **24 English and Turkish probes across nine categories**.
 
-- **Engineering:** conservative human-review labels, evidence-linked JSONL and Markdown reports, language/category filters, dry runs, per-prompt error isolation, and fail-fast operation
-- **Follow-up hardening:** per-probe deadlines, target-error handling, refusal-aware evidence classification, private collision-safe reports, strict configuration validation, shell-free lifecycle dispatch, HTTP readiness checks, and deterministic client cleanup
-- **Validation:** 69 regression tests plus Black, isort, strict mypy, lock/package checks, dependency audit, dry runs, Make targets, and diff checks. The full Podman/Ollama `gpt-oss:20b` end-to-end campaign was not run.
+- **Campaign implementation (#50):** conservative human-review labels, evidence-linked JSONL and Markdown reports, language/category filters, dry runs, per-prompt error isolation, and fail-fast operation
+- **Follow-up hardening (#51):** per-probe deadlines, target-error handling, refusal-aware evidence classification, private collision-safe reports, strict configuration validation, shell-free lifecycle dispatch, HTTP readiness checks, and deterministic client cleanup
+- **Validation:** #50 shipped with 12 focused tests plus Black, isort, strict mypy, lockfile, and diff checks. #51 expanded the suite to 69 passing tests and added package/dependency checks, targeted dry runs, and Make target validation. The full Podman/Ollama `gpt-oss:20b` end-to-end campaign was not run.
 - **Evidence:** [Merged campaign PR #50](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · [Merged hardening PR #51](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/51) · [Campaign field note](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182) · [Hardening field note](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2)
 
 ## Areas of expertise
