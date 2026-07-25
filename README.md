@@ -21,7 +21,7 @@
   <a href="https://medium.com/@3nesdeniz">Medium</a> ·
   <a href="https://orcid.org/0009-0006-9491-3565">ORCID</a> ·
   <a href="https://sessionize.com/3nesdeniz/">Speaker profile</a> ·
-  <a href="https://www.crunchbase.com/person/enes-deniz-e763">Crunchbase</a>
+  <a href="https://www.crunchbase.com/person/3nesdeniz">Crunchbase</a>
 </p>
 
 I am an AI security founder, Co-Founder of **AltaySec**, and an open-source contributor to the **OWASP GenAI Security Project**. My work focuses on Turkish and global LLM security, prompt injection, AI red teaming, jailbreak defense, and agentic security.
@@ -164,5 +164,5 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 - **Hugging Face:** [huggingface.co/3nesdeniz](https://huggingface.co/3nesdeniz)
 - **ORCID:** [0009-0006-9491-3565](https://orcid.org/0009-0006-9491-3565)
 - **Speaker profile:** [sessionize.com/3nesdeniz](https://sessionize.com/3nesdeniz/)
-- **Crunchbase:** [Enes Deniz](https://www.crunchbase.com/person/enes-deniz-e763)
+- **Crunchbase:** [Enes Deniz](https://www.crunchbase.com/person/3nesdeniz)
 - **Zenodo:** [Turkish dataset](https://doi.org/10.5281/zenodo.21379389) · [Agentic dataset](https://doi.org/10.5281/zenodo.21378693)
