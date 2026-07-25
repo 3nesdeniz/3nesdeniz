@@ -47,8 +47,9 @@ I adapted **300 Turkish-first defensive prompt-injection and data-extraction tes
 I developed a reproducible **System Reconnaissance and Discovery** campaign for authorized GenAI assessments. It examines capability, tools, data sources, identity, policy, instructions, memory, architecture, and provenance through **24 English and Turkish probes across nine categories**.
 
 - **Engineering:** conservative human-review labels, evidence-linked JSONL and Markdown reports, language/category filters, dry runs, per-prompt error isolation, and fail-fast operation
-- **Validation:** 12 focused tests plus Black, isort, strict mypy, lockfile, and diff checks
-- **Evidence:** [Merged PR #50](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · [Engineering field note](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182)
+- **Follow-up hardening:** per-probe deadlines, target-error handling, refusal-aware evidence classification, private collision-safe reports, strict configuration validation, shell-free lifecycle dispatch, HTTP readiness checks, and deterministic client cleanup
+- **Validation:** 69 regression tests plus Black, isort, strict mypy, lock/package checks, dependency audit, dry runs, Make targets, and diff checks. The full Podman/Ollama `gpt-oss:20b` end-to-end campaign was not run.
+- **Evidence:** [Merged campaign PR #50](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · [Merged hardening PR #51](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/51) · [Campaign field note](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182) · [Hardening field note](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2)
 
 ## Areas of expertise
 
@@ -138,6 +139,7 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 
 ## Writing and research
 
+- [When a Security Test Mistakes Failure for a Finding](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2)
 - [AI Security Needs More Than English Tests](https://medium.com/@3nesdeniz/ai-security-needs-more-than-english-tests-b2c7589beec3)
 - [Reconnaissance Before Exploitation](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182)
 - [A Prompt-Injection Dataset Should Test Boundaries, Not Keywords](https://medium.com/@3nesdeniz/a-prompt-injection-dataset-should-test-boundaries-not-keywords-79589beda0b6)
