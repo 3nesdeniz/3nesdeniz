@@ -49,7 +49,7 @@ I developed a reproducible **System Reconnaissance and Discovery** campaign for 
 - **Campaign implementation (#50):** conservative human-review labels, evidence-linked JSONL and Markdown reports, language/category filters, dry runs, per-prompt error isolation, and fail-fast operation
 - **Follow-up hardening (#51):** per-probe deadlines, target-error handling, refusal-aware evidence classification, private collision-safe reports, strict configuration validation, shell-free lifecycle dispatch, HTTP readiness checks, and deterministic client cleanup
 - **Validation:** #50 shipped with 12 focused tests plus Black, isort, strict mypy, lockfile, and diff checks. #51 expanded the suite to 69 passing tests and added package/dependency checks, targeted dry runs, and Make target validation. The full Podman/Ollama `gpt-oss:20b` end-to-end campaign was not run.
-- **Evidence:** [Merged campaign PR #50](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · [Merged hardening PR #51](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/51) · [Campaign field note](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182) · [Hardening field note](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2)
+- **Evidence:** [Merged campaign PR #50](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · [Merged hardening PR #51](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/51) · [Versioned technical report](https://doi.org/10.5281/zenodo.21568023) · [Campaign field note](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182) · [Hardening field note](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2)
 
 ## Areas of expertise
 
@@ -139,6 +139,7 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 
 ## Writing and research
 
+- [Reliable Bilingual System Reconnaissance for GenAI Red Teaming: Implementation and Hardening](https://doi.org/10.5281/zenodo.21568023)
 - [When a Security Test Mistakes Failure for a Finding](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2)
 - [AI Security Needs More Than English Tests](https://medium.com/@3nesdeniz/ai-security-needs-more-than-english-tests-b2c7589beec3)
 - [Reconnaissance Before Exploitation](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182)
@@ -165,4 +166,4 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 - **ORCID:** [0009-0006-9491-3565](https://orcid.org/0009-0006-9491-3565)
 - **Speaker profile:** [sessionize.com/3nesdeniz](https://sessionize.com/3nesdeniz/)
 - **Crunchbase:** [Enes Deniz](https://www.crunchbase.com/person/3nesdeniz)
-- **Zenodo:** [Turkish dataset](https://doi.org/10.5281/zenodo.21379389) · [Agentic dataset](https://doi.org/10.5281/zenodo.21378693)
+- **Zenodo:** [System reconnaissance technical report](https://doi.org/10.5281/zenodo.21568023) · [Turkish dataset](https://doi.org/10.5281/zenodo.21379389) · [Agentic dataset](https://doi.org/10.5281/zenodo.21378693)
