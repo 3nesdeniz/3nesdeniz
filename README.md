@@ -34,7 +34,7 @@ At AltaySec, we are building one of Turkey's most focused AI security ecosystems
 
 | Release | What it adds | Evidence |
 | --- | --- | --- |
-| **Turkish Daily Dialogues 5K** | 5,000 synthetic daily-life Turkish conversations across 35 topics, with scenario-family grouped splits and deterministic QA | [GitHub](https://github.com/3nesdeniz/turkish-daily-dialogues-5k) · [Hugging Face](https://huggingface.co/datasets/3nesdeniz/turkish-daily-dialogues-5k) |
+| **Turkish Daily Dialogues 5K** | 5,000 synthetic daily-life Turkish conversations across 35 topics, with scenario-family grouped splits and deterministic QA | [GitHub](https://github.com/3nesdeniz/turkish-daily-dialogues-5k) · [Hugging Face](https://huggingface.co/datasets/3nesdeniz/turkish-daily-dialogues-5k) · [v1.0.0](https://github.com/3nesdeniz/turkish-daily-dialogues-5k/releases/tag/v1.0.0) |
 | **AI Security Roadmap** | A 12-module English learning path and a materially expanded 12-module Turkish edition covering LLM, RAG, agent, MCP, red-team, and blue-team security | [GitHub](https://github.com/3nesdeniz/ai-security-roadmap) · [v1.0.0](https://github.com/3nesdeniz/ai-security-roadmap/releases/tag/v1.0.0) |
 | **Prooflint** | A local-first evidence gate for reviewable AI-security findings, with deterministic rules, tamper-evident manifests, and JSON/SARIF output | [GitHub](https://github.com/3nesdeniz/prooflint) · [v0.1.0](https://github.com/3nesdeniz/prooflint/releases/tag/v0.1.0) |
 
