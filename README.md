@@ -30,26 +30,39 @@ My work covers both sides of AI security: understanding how LLM applications fai
 
 At AltaySec, we are building one of Turkey's most focused AI security ecosystems. Product development, security research, education, open technical resources, and community work all move within the same structure.
 
-## Merged open-source contributions
+## 3 merged upstream contributions
 
-I contribute reviewable AI-security artifacts to OWASP GenAI Security Project repositories. The work below was accepted and merged upstream and is directly verifiable through its pull request, validation record, and accompanying technical field note.
+I contribute reviewable AI-security artifacts to OWASP GenAI Security Project repositories. Each contribution below is independently verifiable through its merged pull request, its own engineering note, and the dataset or report that actually belongs to that work.
 
-### GenAI Data Security Initiative — multilingual evaluation corpus
+| Contribution | Upstream repository | Delivered scope | Evidence |
+| --- | --- | --- | --- |
+| **#11 — Turkish evaluation corpus** | GenAI Data Security Initiative | 300 Turkish-first security test cases with provenance and integrity controls | [Merged PR](https://github.com/GenAI-Security-Project/GenAI-Data-Security-Initiative/pull/11) · [Technical note](https://medium.com/@3nesdeniz/ai-security-needs-more-than-english-tests-b2c7589beec3) · [Pinned source dataset](https://huggingface.co/datasets/AltaySec/turkish-llm-injection/tree/08d1fdccf10a831c2f32627c615002e6286f6315) |
+| **#50 — System reconnaissance campaign** | GenAI Red Team Lab | 24 English and Turkish probes across nine reconnaissance categories | [Merged PR](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · [Technical note](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182) · [Versioned report](https://doi.org/10.5281/zenodo.21568023) |
+| **#51 — Reliability and evidence hardening** | GenAI Red Team Lab | Failure-aware execution, safer evidence handling, report integrity, and lifecycle controls | [Merged PR](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/51) · [Technical note](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2) · [Versioned report](https://doi.org/10.5281/zenodo.21568023) |
+
+### #11 — 300 Turkish security test cases
 
 I adapted **300 Turkish-first defensive prompt-injection and data-extraction test cases** from [AltaySec Turkish LLM Prompt Injection Dataset v0.2](https://huggingface.co/datasets/AltaySec/turkish-llm-injection/tree/08d1fdccf10a831c2f32627c615002e6286f6315) for the GenAI Data Security Initiative. The merged contribution adds one schema-conformant record per case, new annotations and DSGAI mappings, anonymization controls, record-level provenance, source and adapted-content hashes, and a deterministic integrity manifest.
 
-- **Scope:** 227 extraction-focused cases and 73 explicitly marked prompt-injection control/review cases across 12 technique families
-- **Validation:** 300/300 Draft-07 schema validation, manifest-to-file integrity, canonical DSGAI checks, anonymization review, and duplicate screening
-- **Evidence:** [Merged PR #11](https://github.com/GenAI-Security-Project/GenAI-Data-Security-Initiative/pull/11) · [Engineering field note](https://medium.com/@3nesdeniz/ai-security-needs-more-than-english-tests-b2c7589beec3)
+- **Upstream impact:** 227 extraction-focused cases and 73 explicitly marked prompt-injection control/review cases across 12 technique families
+- **Validation boundary:** 300/300 Draft-07 schema validation, manifest-to-file integrity, canonical DSGAI checks, anonymization review, and duplicate screening. The corpus contains no model outputs, success-rate claims, observed-attack claims, or production data.
+- **Evidence chain:** [Merged PR #11](https://github.com/GenAI-Security-Project/GenAI-Data-Security-Initiative/pull/11) · [AI Security Needs More Than English Tests](https://medium.com/@3nesdeniz/ai-security-needs-more-than-english-tests-b2c7589beec3) · [Pinned source dataset revision](https://huggingface.co/datasets/AltaySec/turkish-llm-injection/tree/08d1fdccf10a831c2f32627c615002e6286f6315)
 
-### GenAI Red Team Lab — system reconnaissance campaign
+### #50 — Bilingual system reconnaissance campaign
 
 I developed a reproducible **System Reconnaissance and Discovery** campaign for authorized GenAI assessments. It examines capability, tools, data sources, identity, policy, instructions, memory, architecture, and provenance through **24 English and Turkish probes across nine categories**.
 
-- **Campaign implementation (#50):** conservative human-review labels, evidence-linked JSONL and Markdown reports, language/category filters, dry runs, per-prompt error isolation, and fail-fast operation
-- **Follow-up hardening (#51):** per-probe deadlines, target-error handling, refusal-aware evidence classification, private collision-safe reports, strict configuration validation, shell-free lifecycle dispatch, HTTP readiness checks, and deterministic client cleanup
-- **Validation:** #50 shipped with 12 focused tests plus Black, isort, strict mypy, lockfile, and diff checks. #51 expanded the suite to 69 passing tests and added package/dependency checks, targeted dry runs, and Make target validation. The full Podman/Ollama `gpt-oss:20b` end-to-end campaign was not run.
-- **Evidence:** [Merged campaign PR #50](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · [Merged hardening PR #51](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/51) · [Versioned technical report](https://doi.org/10.5281/zenodo.21568023) · [Campaign field note](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182) · [Hardening field note](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2)
+- **Upstream impact:** conservative human-review labels, evidence-linked JSONL and Markdown reports, language/category filters, dry runs, per-prompt error isolation, and fail-fast operation
+- **Validation boundary:** 12 focused tests plus Black, isort, strict mypy, lockfile, dry-run, and diff checks. The local `gpt-oss:20b` sandbox was not downloaded or launched; transport behavior was covered through an injected client.
+- **Evidence chain:** [Merged PR #50](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · [Reconnaissance Before Exploitation](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182) · [Versioned implementation and hardening report](https://doi.org/10.5281/zenodo.21568023)
+
+### #51 — Reliability and evidence hardening
+
+I hardened the reconnaissance workflow so execution failures cannot be mistaken for security findings and incomplete evidence cannot silently become a successful report.
+
+- **Upstream impact:** per-probe deadlines, target-error handling, refusal-aware evidence classification, private collision-safe reports, strict configuration validation, shell-free lifecycle dispatch, HTTP readiness checks, and deterministic client cleanup
+- **Validation boundary:** 69 passing tests, package/dependency checks, targeted dry runs, and Make target validation. The full Podman/Ollama `gpt-oss:20b` end-to-end campaign was not run.
+- **Evidence chain:** [Merged PR #51](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/51) · [When a Security Test Mistakes Failure for a Finding](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2) · [Versioned implementation and hardening report](https://doi.org/10.5281/zenodo.21568023)
 
 ## Areas of expertise
 
