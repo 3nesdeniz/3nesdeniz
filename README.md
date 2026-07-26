@@ -5,7 +5,7 @@
 <h1 align="center">Enes Deniz</h1>
 
 <p align="center">
-  <strong>Co-Founder @ AltaySec | OWASP GenAI Contributor | AI Security for Turkish & Global LLMs</strong>
+  <strong>Co-Founder @ AltaySec | OWASP AI & GenAI Contributor | AI Security for Turkish & Global LLMs</strong>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
   <a href="https://www.crunchbase.com/person/3nesdeniz">Crunchbase</a>
 </p>
 
-I am an AI security founder, Co-Founder of **AltaySec**, and an open-source contributor to the **OWASP GenAI Security Project**. My work focuses on Turkish and global LLM security, prompt injection, AI red teaming, jailbreak defense, and agentic security.
+I am an AI security founder, Co-Founder of **AltaySec**, and an open-source contributor across **OWASP AI and GenAI projects**. My work focuses on Turkish and global LLM security, prompt injection, AI engineering, AI red teaming, jailbreak defense, and agentic security.
 
 My work covers both sides of AI security: understanding how LLM applications fail under adversarial use, and developing the defensive controls, datasets, tools, and operating practices needed to deploy them more securely.
 
@@ -42,13 +42,22 @@ The dialogue dataset is a general Turkish NLP resource; it is not presented as a
 
 ## Merged upstream contributions
 
-I contribute reviewable AI-security artifacts to OWASP GenAI Security Project repositories. Each contribution below is independently verifiable through its merged pull request, its own engineering note, and the dataset or report that actually belongs to that work.
+I contribute reviewable AI-security artifacts across OWASP AI and GenAI projects. Each contribution below is independently verifiable through its merged pull request and the technical artifact that belongs to that work.
 
 | Contribution | Upstream repository | Delivered scope | Evidence |
 | --- | --- | --- | --- |
+| **#187 — AI engineering primer** | OWASP AI Exchange | A security-oriented map of AI delivery models, lifecycle artifacts, ownership boundaries, and first-pass review questions | [Merged PR](https://github.com/OWASP/www-project-ai-security-and-privacy-guide/pull/187) · [Live primer](https://owaspai.org/go/aiengineeringprimer/) |
 | **#11 — Turkish evaluation corpus** | GenAI Data Security Initiative | 300 Turkish-first security test cases with provenance and integrity controls | [Merged PR](https://github.com/GenAI-Security-Project/GenAI-Data-Security-Initiative/pull/11) · [Technical note](https://medium.com/@3nesdeniz/ai-security-needs-more-than-english-tests-b2c7589beec3) · [Pinned source dataset](https://huggingface.co/datasets/AltaySec/turkish-llm-injection/tree/08d1fdccf10a831c2f32627c615002e6286f6315) |
 | **#50 — System reconnaissance campaign** | GenAI Red Team Lab | 24 English and Turkish probes across nine reconnaissance categories | [Merged PR](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · [Technical note](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182) · [Versioned report](https://doi.org/10.5281/zenodo.21568023) |
 | **#51 — Reliability and evidence hardening** | GenAI Red Team Lab | Failure-aware execution, safer evidence handling, report integrity, and lifecycle controls | [Merged PR](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/51) · [Technical note](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2) · [Versioned report](https://doi.org/10.5281/zenodo.21568023) |
+
+### #187 — AI engineering primer for security professionals
+
+I wrote a practical primer for security professionals who need to review AI systems without collapsing the model, application, data, infrastructure, and operating process into a single black box.
+
+- **Upstream impact:** distinguishes provider-hosted APIs, self-hosted models, and fine-tuned or trained systems; maps six lifecycle stages to engineering artifacts, security questions, and accountable owners; and provides an inventory-first review sequence
+- **Validation boundary:** this is a documentation and methodology contribution. It makes no benchmark, product-performance, or production-deployment claims.
+- **Evidence chain:** [Merged OWASP AI Exchange PR #187](https://github.com/OWASP/www-project-ai-security-and-privacy-guide/pull/187) · [Live AI Engineering Primer](https://owaspai.org/go/aiengineeringprimer/)
 
 ### #11 — 300 Turkish security test cases
 
@@ -165,6 +174,7 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 
 ## Writing and research
 
+- [AI Engineering Primer for Security Professionals — OWASP AI Exchange](https://owaspai.org/go/aiengineeringprimer/)
 - [Three Open-Source Releases, One Standard: Make the Evidence Inspectable](https://medium.com/@3nesdeniz/three-open-source-releases-one-standard-make-the-evidence-inspectable-d4acf4589662)
 - [Reliable Bilingual System Reconnaissance for GenAI Red Teaming: Implementation and Hardening](https://doi.org/10.5281/zenodo.21568023)
 - [When a Security Test Mistakes Failure for a Finding](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2)
