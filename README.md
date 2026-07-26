@@ -30,7 +30,17 @@ My work covers both sides of AI security: understanding how LLM applications fai
 
 At AltaySec, we are building one of Turkey's most focused AI security ecosystems. Product development, security research, education, open technical resources, and community work all move within the same structure.
 
-## 3 merged upstream contributions
+## Latest open releases
+
+| Release | What it adds | Evidence |
+| --- | --- | --- |
+| **Turkish Daily Dialogues 5K** | 5,000 synthetic daily-life Turkish conversations across 35 topics, with scenario-family grouped splits and deterministic QA | [GitHub](https://github.com/3nesdeniz/turkish-daily-dialogues-5k) · [Hugging Face](https://huggingface.co/datasets/3nesdeniz/turkish-daily-dialogues-5k) |
+| **AI Security Roadmap** | A 12-module English learning path and a materially expanded 12-module Turkish edition covering LLM, RAG, agent, MCP, red-team, and blue-team security | [GitHub](https://github.com/3nesdeniz/ai-security-roadmap) · [v1.0.0](https://github.com/3nesdeniz/ai-security-roadmap/releases/tag/v1.0.0) |
+| **Prooflint** | A local-first evidence gate for reviewable AI-security findings, with deterministic rules, tamper-evident manifests, and JSON/SARIF output | [GitHub](https://github.com/3nesdeniz/prooflint) · [v0.1.0](https://github.com/3nesdeniz/prooflint/releases/tag/v0.1.0) |
+
+The dialogue dataset is a general Turkish NLP resource; it is not presented as an AI-security benchmark. The roadmap and Prooflint are independent open-source methodology and tooling projects.
+
+## Merged upstream contributions
 
 I contribute reviewable AI-security artifacts to OWASP GenAI Security Project repositories. Each contribution below is independently verifiable through its merged pull request, its own engineering note, and the dataset or report that actually belongs to that work.
 
@@ -142,6 +152,9 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 
 | Project | Scope |
 | --- | --- |
+| [Prooflint](https://github.com/3nesdeniz/prooflint) | Local-first evidence gate for AI-security findings, deterministic manifests, and SARIF reporting |
+| [AI Security Roadmap](https://github.com/3nesdeniz/ai-security-roadmap) | Bilingual learning path for LLM, RAG, agent, MCP, red-team, and blue-team security |
+| [Turkish Daily Dialogues 5K](https://github.com/3nesdeniz/turkish-daily-dialogues-5k) | Reproducible synthetic Turkish daily-dialogue dataset with 5,000 conversations across 35 topics |
 | [AI & Cybersecurity Skills](https://github.com/3nesdeniz/ai-cybersecurity-skills) | Ten evidence-driven AI security and cybersecurity skills for Codex and compatible agents |
 | [LLM Security Testbench](https://github.com/3nesdeniz/llm-security-testbench) | Pair-aware evaluation for prompt-injection detectors and LLM guardrails |
 | [Agentic Prompt-Injection Boundary Pairs](https://github.com/3nesdeniz/agentic-prompt-injection-boundary-pairs) | English paired dataset for agentic workflows and trust-boundary testing |
@@ -152,6 +165,7 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 
 ## Writing and research
 
+- [Three Open-Source Releases, One Standard: Make the Evidence Inspectable](https://medium.com/@3nesdeniz/three-open-source-releases-one-standard-make-the-evidence-inspectable-d4acf4589662)
 - [Reliable Bilingual System Reconnaissance for GenAI Red Teaming: Implementation and Hardening](https://doi.org/10.5281/zenodo.21568023)
 - [When a Security Test Mistakes Failure for a Finding](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2)
 - [AI Security Needs More Than English Tests](https://medium.com/@3nesdeniz/ai-security-needs-more-than-english-tests-b2c7589beec3)
