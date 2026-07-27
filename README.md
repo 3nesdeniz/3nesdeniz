@@ -5,7 +5,7 @@
 <h1 align="center">Enes Deniz</h1>
 
 <p align="center">
-  <strong>Co-Founder @ AltaySec | OWASP AI, GenAI & Agent Security Contributor | AI Security for Turkish & Global LLMs</strong>
+  <strong>Co-Founder @ AltaySec | AI Security & Open-Source Security Contributor | Turkish & Global LLMs</strong>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
   <a href="https://www.crunchbase.com/person/3nesdeniz">Crunchbase</a>
 </p>
 
-I am an AI security founder, Co-Founder of **AltaySec**, and the author of six merged contributions across **OWASP AI, GenAI, and Agent Security projects**. My work focuses on Turkish and global LLM security, prompt injection, AI engineering, AI red teaming, jailbreak defense, and agentic security.
+I am Co-Founder of **AltaySec** and an AI security researcher with **seven merged external upstream contributions across five repositories** in OWASP, the GenAI Security Project, and Anchore. My work spans Turkish and global LLM security, prompt injection, AI engineering, AI red teaming, agentic security, SBOM identity, and software supply-chain security.
 
 My work covers both sides of AI security: understanding how LLM applications fail under adversarial use, and developing the defensive controls, datasets, tools, and operating practices needed to deploy them more securely.
 
@@ -42,70 +42,19 @@ The dialogue dataset is a general Turkish NLP resource; it is not presented as a
 
 ## Merged upstream contributions
 
-I contribute reviewable AI-security artifacts across OWASP AI, GenAI, and Agent Security projects. Each contribution below is independently verifiable through its merged pull request and the technical artifact that belongs to that work.
+Seven external technical contributions are merged across five upstream repositories. Each row links to the merged pull request; DOI links refer only to independently authored companion reports that document the corresponding work.
 
-| Contribution | Upstream repository | Delivered scope | Evidence |
+| Upstream project | PR and merge date | Contribution and upstream result | Proof / companion material |
 | --- | --- | --- | --- |
-| **#187 — AI engineering primer** | OWASP AI Exchange | A security-oriented map of AI delivery models, lifecycle artifacts, ownership boundaries, and first-pass review questions | [Merged PR](https://github.com/OWASP/www-project-ai-security-and-privacy-guide/pull/187) · [Live primer](https://owaspai.org/go/aiengineeringprimer/) · [Independent companion report](https://doi.org/10.5281/zenodo.21623740) |
-| **#157 — OpenAI Agents goal events** | OWASP Agent Security Regression Harness | Explicit, deterministic goal-event evidence for goal-integrity assertions without inferred intent | [Merged PR](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/157) · [Independent technical report](https://doi.org/10.5281/zenodo.21623795) |
-| **#158 — LangGraph update streams** | OWASP Agent Security Regression Harness | Opt-in synchronous update-stream capture with the default invoke path preserved | [Merged PR](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/158) · [Independent technical report](https://doi.org/10.5281/zenodo.21623795) |
-| **#11 — Turkish evaluation corpus** | GenAI Data Security Initiative | 300 Turkish-first security test cases with provenance and integrity controls | [Merged PR](https://github.com/GenAI-Security-Project/GenAI-Data-Security-Initiative/pull/11) · [Technical note](https://medium.com/@3nesdeniz/ai-security-needs-more-than-english-tests-b2c7589beec3) · [Pinned source dataset](https://huggingface.co/datasets/AltaySec/turkish-llm-injection/tree/08d1fdccf10a831c2f32627c615002e6286f6315) |
-| **#50 — System reconnaissance campaign** | GenAI Red Team Lab | 24 English and Turkish probes across nine reconnaissance categories | [Merged PR](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · [Technical note](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182) · [Versioned report](https://doi.org/10.5281/zenodo.21568023) |
-| **#51 — Reliability and evidence hardening** | GenAI Red Team Lab | Failure-aware execution, safer evidence handling, report integrity, and lifecycle controls | [Merged PR](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/51) · [Technical note](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2) · [Versioned report](https://doi.org/10.5281/zenodo.21568023) |
+| **Anchore Syft** | [#5105](https://github.com/anchore/syft/pull/5105) · 27 Jul 2026 | Corrected Cargo PURL identity for local workspace packages while preserving sourced registry and Git package identities; added regression coverage for path dependencies | [Merge commit `86baeeb`](https://github.com/anchore/syft/commit/86baeeb481ce7de42841993fb4424a696a89d2ee) · [Independent report](https://doi.org/10.5281/zenodo.21632589) |
+| **OWASP Agent Security Regression Harness** | [#158](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/158) · 27 Jul 2026 | Added opt-in synchronous LangGraph update-stream capture while preserving the default `invoke()` path | [Merged PR](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/158) · [Independent report](https://doi.org/10.5281/zenodo.21623795) |
+| **OWASP Agent Security Regression Harness** | [#157](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/157) · 27 Jul 2026 | Added explicit, deterministic OpenAI Agents goal-event evidence without inferring intent | [Merged PR](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/157) · [Independent report](https://doi.org/10.5281/zenodo.21623795) |
+| **OWASP AI Exchange** | [#187](https://github.com/OWASP/www-project-ai-security-and-privacy-guide/pull/187) · 26 Jul 2026 | Published a security-oriented AI engineering primer covering delivery models, lifecycle evidence, review questions, and ownership boundaries | [Live primer](https://owaspai.org/go/aiengineeringprimer/) · [Independent companion report](https://doi.org/10.5281/zenodo.21623740) |
+| **GenAI Red Team Lab** | [#51](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/51) · 24 Jul 2026 | Hardened the reconnaissance workflow so target failures and incomplete evidence are not reported as findings | [Merged PR](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/51) · [Versioned report](https://doi.org/10.5281/zenodo.21568023) |
+| **GenAI Data Security Initiative** | [#11](https://github.com/GenAI-Security-Project/GenAI-Data-Security-Initiative/pull/11) · 18 Jul 2026 | Added 300 Turkish-first, schema-conformant security test cases with provenance, anonymization, integrity controls, and DSGAI mappings | [Pinned source dataset revision](https://huggingface.co/datasets/AltaySec/turkish-llm-injection/tree/08d1fdccf10a831c2f32627c615002e6286f6315) · [Technical note](https://medium.com/@3nesdeniz/ai-security-needs-more-than-english-tests-b2c7589beec3) |
+| **GenAI Red Team Lab** | [#50](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · 18 Jul 2026 | Added a reproducible bilingual system-reconnaissance campaign with 24 probes across nine categories and conservative evidence reporting | [Merged PR](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · [Versioned report](https://doi.org/10.5281/zenodo.21568023) |
 
-### #187 — AI engineering primer for security professionals
-
-I wrote a practical primer for security professionals who need to review AI systems without collapsing the model, application, data, infrastructure, and operating process into a single black box.
-
-- **Upstream impact:** distinguishes provider-hosted APIs, self-hosted models, and fine-tuned or trained systems; maps six lifecycle stages to engineering artifacts, security questions, and accountable owners; and provides an inventory-first review sequence
-- **Validation boundary:** this is a documentation and methodology contribution. It makes no benchmark, product-performance, or production-deployment claims.
-- **Evidence chain:** [Merged OWASP AI Exchange PR #187](https://github.com/OWASP/www-project-ai-security-and-privacy-guide/pull/187) · [Live AI Engineering Primer](https://owaspai.org/go/aiengineeringprimer/) · [Independent companion report](https://doi.org/10.5281/zenodo.21623740)
-
-The companion report is authored by Enes Deniz and published on Zenodo; it is not an OWASP publication or endorsement.
-
-### #157 — Explicit OpenAI Agents goal-event evidence
-
-I added an explicit goal-event path so `goal_integrity` assertions can evaluate in-process OpenAI Agents runs through a deterministic trace event rather than inferred intent.
-
-- **Upstream impact:** `goal_event_id` across the adapter and runner APIs, `--openai-agent-goal-event` in the CLI, standard `goal` trace events, and validation for blank or out-of-context use
-- **Compatibility boundary:** existing trace shape remains unchanged when the feature is not configured; intent is not inferred from model output, tool calls, or agent metadata
-- **Validation:** 349 passing tests and 2 skips were reported for the contribution, alongside scoped Ruff, mypy, and diff checks
-- **Evidence chain:** [Merged PR #157](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/157) · [Independent framework-aware evidence report](https://doi.org/10.5281/zenodo.21623795)
-
-### #158 — Opt-in LangGraph update-stream capture
-
-I added a narrow path for synchronous LangGraph `stream_mode="updates"` execution so node updates can be retained as inspectable agent-security regression evidence.
-
-- **Upstream impact:** `--langchain-stream-updates`, assistant-message and tool-call capture from standard update payloads, optional LangChain configuration, and preserved goal-event handling
-- **Compatibility boundary:** the default remains `invoke()`; async, token-stream, callback, and subgraph paths remain outside scope; unsupported targets and malformed streams fail explicitly
-- **Validation:** 351 passing tests and 2 skips were reported for the contribution, alongside scoped Ruff, mypy, and diff checks
-- **Evidence chain:** [Merged PR #158](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/158) · [Independent framework-aware evidence report](https://doi.org/10.5281/zenodo.21623795)
-
-The framework-aware evidence report is authored by Enes Deniz and published on Zenodo; it is not an OWASP publication or endorsement.
-
-### #11 — 300 Turkish security test cases
-
-I adapted **300 Turkish-first defensive prompt-injection and data-extraction test cases** from [AltaySec Turkish LLM Prompt Injection Dataset v0.2](https://huggingface.co/datasets/AltaySec/turkish-llm-injection/tree/08d1fdccf10a831c2f32627c615002e6286f6315) for the GenAI Data Security Initiative. The merged contribution adds one schema-conformant record per case, new annotations and DSGAI mappings, anonymization controls, record-level provenance, source and adapted-content hashes, and a deterministic integrity manifest.
-
-- **Upstream impact:** 227 extraction-focused cases and 73 explicitly marked prompt-injection control/review cases across 12 technique families
-- **Validation boundary:** 300/300 Draft-07 schema validation, manifest-to-file integrity, canonical DSGAI checks, anonymization review, and duplicate screening. The corpus contains no model outputs, success-rate claims, observed-attack claims, or production data.
-- **Evidence chain:** [Merged PR #11](https://github.com/GenAI-Security-Project/GenAI-Data-Security-Initiative/pull/11) · [AI Security Needs More Than English Tests](https://medium.com/@3nesdeniz/ai-security-needs-more-than-english-tests-b2c7589beec3) · [Pinned source dataset revision](https://huggingface.co/datasets/AltaySec/turkish-llm-injection/tree/08d1fdccf10a831c2f32627c615002e6286f6315)
-
-### #50 — Bilingual system reconnaissance campaign
-
-I developed a reproducible **System Reconnaissance and Discovery** campaign for authorized GenAI assessments. It examines capability, tools, data sources, identity, policy, instructions, memory, architecture, and provenance through **24 English and Turkish probes across nine categories**.
-
-- **Upstream impact:** conservative human-review labels, evidence-linked JSONL and Markdown reports, language/category filters, dry runs, per-prompt error isolation, and fail-fast operation
-- **Validation boundary:** 12 focused tests plus Black, isort, strict mypy, lockfile, dry-run, and diff checks. The local `gpt-oss:20b` sandbox was not downloaded or launched; transport behavior was covered through an injected client.
-- **Evidence chain:** [Merged PR #50](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/50) · [Reconnaissance Before Exploitation](https://medium.com/@3nesdeniz/reconnaissance-before-exploitation-f9804e68e182) · [Versioned implementation and hardening report](https://doi.org/10.5281/zenodo.21568023)
-
-### #51 — Reliability and evidence hardening
-
-I hardened the reconnaissance workflow so execution failures cannot be mistaken for security findings and incomplete evidence cannot silently become a successful report.
-
-- **Upstream impact:** per-probe deadlines, target-error handling, refusal-aware evidence classification, private collision-safe reports, strict configuration validation, shell-free lifecycle dispatch, HTTP readiness checks, and deterministic client cleanup
-- **Validation boundary:** 69 passing tests, package/dependency checks, targeted dry runs, and Make target validation. The full Podman/Ollama `gpt-oss:20b` end-to-end campaign was not run.
-- **Evidence chain:** [Merged PR #51](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab/pull/51) · [When a Security Test Mistakes Failure for a Finding](https://medium.com/@3nesdeniz/when-a-security-test-mistakes-failure-for-a-finding-fb8c147912e2) · [Versioned implementation and hardening report](https://doi.org/10.5281/zenodo.21568023)
+The source corpus linked for PR #11 is the pinned AltaySec v0.2 revision used for the upstream adaptation; it is not the separate 750-row dataset published under DOI `10.5281/zenodo.21379389`.
 
 ## Areas of expertise
 
@@ -198,6 +147,7 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 
 ## Writing and research
 
+- [Local Is Not crates.io: Correcting Cargo Package Identity in Rust SBOMs](https://doi.org/10.5281/zenodo.21632589)
 - [AI Engineering Primer for Security Professionals — OWASP AI Exchange](https://owaspai.org/go/aiengineeringprimer/)
 - [Security-Oriented AI Engineering: An Inventory-First Companion to the OWASP AI Exchange Primer](https://doi.org/10.5281/zenodo.21623740)
 - [Framework-Aware Evidence Capture: OpenAI Agents Goal Events and LangGraph Update Streams in Agentic AI Security Regression Testing](https://doi.org/10.5281/zenodo.21623795)
@@ -229,4 +179,4 @@ An open Turkish dataset built to study the boundary between legitimate user inte
 - **ORCID:** [0009-0006-9491-3565](https://orcid.org/0009-0006-9491-3565)
 - **Speaker profile:** [sessionize.com/3nesdeniz](https://sessionize.com/3nesdeniz/)
 - **Crunchbase:** [Enes Deniz](https://www.crunchbase.com/person/3nesdeniz)
-- **Zenodo:** [Agent security report](https://doi.org/10.5281/zenodo.21623795) · [AI engineering companion](https://doi.org/10.5281/zenodo.21623740) · [System reconnaissance report](https://doi.org/10.5281/zenodo.21568023) · [Turkish dataset](https://doi.org/10.5281/zenodo.21379389) · [Agentic dataset](https://doi.org/10.5281/zenodo.21378693)
+- **Zenodo:** [Cargo identity report](https://doi.org/10.5281/zenodo.21632589) · [Agent security report](https://doi.org/10.5281/zenodo.21623795) · [AI engineering companion](https://doi.org/10.5281/zenodo.21623740) · [System reconnaissance report](https://doi.org/10.5281/zenodo.21568023) · [Turkish dataset](https://doi.org/10.5281/zenodo.21379389) · [Agentic dataset](https://doi.org/10.5281/zenodo.21378693)
